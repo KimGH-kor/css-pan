@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div class="textbox">
+            안녕하세요 <span>김경환</span>입니다. 잘 부탁드리겠습니다.
+            <br>이번 연습은 <span>글씨에 형광팬</span>이 끄어지는 연습입니다.
+        </div>
+</html>
+
+<style>
+
+    span{
+        background:linear-gradient(to right, rgba(255 , 255, 255,0) 50%, #f3be00 50%);
+        background-size: 200%;
+        transition: .35s;
+        font-size: 16px;
+        color: black;
+    }
+
+    .textbox:hover span{
+        background-position: -100% 0;
+        
+    }
+
+
+
+</style>
